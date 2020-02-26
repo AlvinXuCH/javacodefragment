@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Created by xualvin on 26/2/2020.
+ * 详细介绍可以查看"小桶Tobey"的介绍 https://www.jianshu.com/p/4c0723615a52
  */
 @Component //注意：需要在Spring中注册，然后通过设置applicationcontext获取容器中的所有bean
 public class SpringBeanAwareUtil implements ApplicationContextAware {
